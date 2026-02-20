@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Männer in Frauenberufen - Coiffeur Schnittpunkt</title>
+
+  <meta name="description" content="Entdecken Sie die neuesten Trends und Entwicklungen in der Friseurbranche mit männlichen Fachkräften.">
+  <meta name="keywords" content="Männer Friseur, Frauenberuf, Friseur Potsdam, Geschlechtsneutralität, Berufsfeld">
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/main.js" defer></script>
+</head>
+<body>
+   <header class="header" id="header">
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo" aria-label="Coiffeur Schnittpunkt Logo" onclick="window.location.href='/index.html'">
+          <img src="/img/logo.jpeg" alt="Logo">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="nav-wrapper" id="navWrapper">
+          <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul class="nav-list" id="navList">
+            <li><a href="/index.html" class="nav-link" data-lang="nav_home">Startseite</a></li>
+            <li><a href="/about.html" class="nav-link" data-lang="nav_about">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link" data-lang="nav_services">Leistungen</a></li>
+            <li><a href="/gallery.html" class="nav-link" data-lang="nav_gallery">Galerie</a></li>
+             <li><a href="/news.html" class="nav-link" data-lang="nav_news">News</a></li>
+            <li><a href="/contact.html" class="nav-link" data-lang="nav_contact">Kontakt</a></li>
+          </ul>
+
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" data-lang-btn="de" aria-label="Deutsch">DE</button>
+            <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <article class="news-detail section">
+    <div class="container">
+      <div class="news-detail-header"><br><br>
+        <a href="/news.html" class="back-link">
+          <i data-lucide="arrow-left"></i>
+          <span data-lang="news_back">Zurück zur Übersicht</span>
+        </a>
+
+        <div class="news-detail-meta">
+          <span class="news-category" data-lang="news_category_press">Press</span>
+          <span class="news-date">24. Oktober 2014</span>
+        </div>
+
+        <h1 data-lang="news_detail_2_title">Männer in Frauenberufen: Mike der Friseur</h1>
+
+        <div class="news-detail-hero">
+          <img src="/img/maenner-in-frauenberufen.jpg" alt="Radio Potsdam Visit">
+        </div>
+      </div>
+
+      <div class="news-detail-content">
+        <div class="content-section">
+          <h2 data-lang="news_detail_2_intro_title">Männer in Frauenberufen</h2>
+          <p data-lang="news_detail_2_intro_text">
+           Eine KFZ-Mechatronikerin, ein Kosmetiker? Bei der Berufswahl spielt das Geschlecht schon lange keine Rolle mehr. Oder etwa doch? Wir haben den Friseur Mike Wittich bei seiner Arbeit begleitet. Er erzählt uns, wie es für ihn ist, der einzige Mann im Salon zu sein und wie er zu seinem Berufswunsch kam.
+          </p>
+        </div>
+
+       <video src="/img/maenner-in-frauenberufen.mp4" class="video-news" controls fullscreen></video>
+        
+      </div>
+    </div>
+  </article>
+
+    <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="/img/logo.jpeg" alt="Coiffeur Schnittpunkt Logo">
+            </div>
+            <p class="footer-tagline" data-lang="footer_tagline">Schönheit mit Stil seit 2003</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/Coiffeur.Schnittpunkt/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4 data-lang="footer_nav_title">Navigation</h4>
+              <ul class="footer-links">
+                <li><a href="/index.html" data-lang="nav_home">Startseite</a></li>
+                <li><a href="/about.html" data-lang="nav_about">Über uns</a></li>
+                <li><a href="/services.html" data-lang="nav_services">Leistungen</a></li>
+                <li><a href="/gallery.html" data-lang="nav_gallery">Galerie</a></li>
+                <li><a href="/contact.html" data-lang="nav_contact">Kontakt</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_contact_title">Kontakt</h4>
+              <ul class="footer-links">
+                <li>Kurfürstenstr. 2</li>
+                <li>14467 Potsdam</li>
+                <li><a href="tel:+493312009955">(0331) 2009955</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_legal_title">Rechtliches</h4>
+              <ul class="footer-links">
+                <li><a href="/imprint.html" data-lang="footer_imprint">Impressum</a></li>
+                <li><a href="/privacy.html" data-lang="footer_privacy">Datenschutz</a></li>
+                <li><a href="/cookie-policy.html" data-lang="footer_cookies">Cookie Richtlinie</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Coiffeur Schnittpunkt. <span data-lang="footer_rights">Alle Rechte vorbehalten.</span></p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/cookie-banner.js"></script>
+</body>
+</html>

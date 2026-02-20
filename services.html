@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leistungen - Coiffeur Schnittpunkt</title>
+
+  <meta name="description" content="Unser komplettes Leistungsangebot - von Haarschnitten über Colorationen bis hin zu speziellen Treatments. Entdecken Sie unsere Services und Preise.">
+  <meta name="keywords" content="Friseur Leistungen, Haarschnitt Potsdam, Coloration, Styling, Pflege, Preise">
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/style.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+   <header class="header" id="header">
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo" aria-label="Coiffeur Schnittpunkt Logo" onclick="window.location.href='/index.html'">
+          <img src="/img/logo.jpeg" alt="Logo">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="nav-wrapper" id="navWrapper">
+          <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul class="nav-list" id="navList">
+            <li><a href="/index.html" class="nav-link" data-lang="nav_home">Startseite</a></li>
+            <li><a href="/about.html" class="nav-link" data-lang="nav_about">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link" data-lang="nav_services">Leistungen</a></li>
+            <li><a href="/gallery.html" class="nav-link" data-lang="nav_gallery">Galerie</a></li>
+             <li><a href="/news.html" class="nav-link" data-lang="nav_news">News</a></li>
+            <li><a href="/contact.html" class="nav-link" data-lang="nav_contact">Kontakt</a></li>
+          </ul>
+
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" data-lang-btn="de" aria-label="Deutsch">DE</button>
+            <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-background">
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="section-badge">
+          <i data-lucide="briefcase"></i>
+          <span data-lang="services_badge">Leistungen</span>
+        </div>
+        <h1 class="page-hero-title" data-lang="services_page_title">Unsere Leistungen</h1>
+        <p class="page-hero-subtitle" data-lang="services_page_subtitle">
+          Entdecken Sie unser komplettes Serviceangebot – von klassischen Schnitten bis zu modernen Färbetechniken und exklusiven Treatments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-detail section">
+    <div class="container">
+      <div class="services-categories">
+        <div class="service-category" data-aos="fade-up">
+          <div class="category-header">
+            <div class="category-icon">
+              <i data-lucide="scissors"></i>
+            </div>
+            <h2 data-lang="category_haircut_title">Haarschnitte</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_women_cut">Damenhaarschnitt</h3>
+                <p data-lang="service_women_cut_desc">Individueller Schnitt mit Waschen und Föhnen</p>
+              </div>
+              <div class="service-item-price">ab 42€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_men_cut">Herrenhaarschnitt</h3>
+                <p data-lang="service_men_cut_desc">Klassischer oder moderner Schnitt mit Waschen</p>
+              </div>
+              <div class="service-item-price">ab 32€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_kids_cut">Kinderhaarschnitt</h3>
+                <p data-lang="service_kids_cut_desc">Für Kinder bis 12 Jahre</p>
+              </div>
+              <div class="service-item-price">ab 22€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_bang_cut">Ponyschnitt</h3>
+                <p data-lang="service_bang_cut_desc">Schnelle Korrektur für den Pony</p>
+              </div>
+              <div class="service-item-price">ab 12€</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="category-header">
+            <div class="category-icon">
+              <i data-lucide="palette"></i>
+            </div>
+            <h2 data-lang="category_color_title">Colorationen</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_full_color">Komplett-Coloration</h3>
+                <p data-lang="service_full_color_desc">Komplette Färbung mit Premium-Produkten</p>
+              </div>
+              <div class="service-item-price">ab 55€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_highlights">Strähnchen</h3>
+                <p data-lang="service_highlights_desc">Highlights für mehr Dimension und Lebendigkeit</p>
+              </div>
+              <div class="service-item-price">ab 65€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_balayage">Balayage</h3>
+                <p data-lang="service_balayage_desc">Natürlicher Farbverlauf mit handgemalter Technik</p>
+              </div>
+              <div class="service-item-price">ab 85€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_ombre">Ombré</h3>
+                <p data-lang="service_ombre_desc">Fließender Übergang von dunkel zu hell</p>
+              </div>
+              <div class="service-item-price">ab 95€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_toner">Tönung</h3>
+                <p data-lang="service_toner_desc">Sanfte Farbveränderung ohne Ammoniak</p>
+              </div>
+              <div class="service-item-price">ab 38€</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="category-header">
+            <div class="category-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h2 data-lang="category_styling_title">Styling</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_blowdry">Föhnen & Styling</h3>
+                <p data-lang="service_blowdry_desc">Professionelles Styling mit Glättung oder Locken</p>
+              </div>
+              <div class="service-item-price">ab 35€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_updo">Hochsteckfrisur</h3>
+                <p data-lang="service_updo_desc">Elegante Frisuren für besondere Anlässe</p>
+              </div>
+              <div class="service-item-price">ab 55€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_bridal">Braut-Styling</h3>
+                <p data-lang="service_bridal_desc">Komplettes Styling für Ihren großen Tag inkl. Probe</p>
+              </div>
+              <div class="service-item-price">ab 120€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_event">Event-Styling</h3>
+                <p data-lang="service_event_desc">Perfekter Look für Ihre Veranstaltung</p>
+              </div>
+              <div class="service-item-price">ab 65€</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-category" data-aos="fade-up" data-aos-delay="300">
+          <div class="category-header">
+            <div class="category-icon">
+              <i data-lucide="droplet"></i>
+            </div>
+            <h2 data-lang="category_treatment_title">Pflege & Treatments</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_treatment_basic">Intensiv-Kur</h3>
+                <p data-lang="service_treatment_basic_desc">Tiefenpflege für geschädigtes Haar</p>
+              </div>
+              <div class="service-item-price">ab 25€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_treatment_keratin">Keratin-Treatment</h3>
+                <p data-lang="service_treatment_keratin_desc">Langanhaltende Glättung und Pflege</p>
+              </div>
+              <div class="service-item-price">ab 120€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_treatment_olaplex">Olaplex-Behandlung</h3>
+                <p data-lang="service_treatment_olaplex_desc">Repair-System für strapaziertes Haar</p>
+              </div>
+              <div class="service-item-price">ab 35€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_scalp">Kopfhautbehandlung</h3>
+                <p data-lang="service_scalp_desc">Beruhigende Pflege mit Massage</p>
+              </div>
+              <div class="service-item-price">ab 28€</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-category" data-aos="fade-up" data-aos-delay="400">
+          <div class="category-header">
+            <div class="category-icon">
+              <i data-lucide="waves"></i>
+            </div>
+            <h2 data-lang="category_permanent_title">Dauerwellen & Glätten</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_perm">Dauerwelle</h3>
+                <p data-lang="service_perm_desc">Langanhaltende Locken mit moderner Technik</p>
+              </div>
+              <div class="service-item-price">ab 75€</div>
+            </div>
+            <div class="service-item">
+              <div class="service-item-content">
+                <h3 data-lang="service_straightening">Glättung</h3>
+                <p data-lang="service_straightening_desc">Dauerhafte Haarglättung</p>
+              </div>
+              <div class="service-item-price">ab 95€</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-info" data-aos="fade-up">
+        <div class="info-card">
+          <div class="info-icon">
+            <i data-lucide="info"></i>
+          </div>
+          <div class="info-content">
+            <h3 data-lang="services_info_title">Wichtige Hinweise</h3>
+            <ul>
+              <li data-lang="services_info_1">Alle Preise verstehen sich als Startpreise und können je nach Haarlänge und Aufwand variieren</li>
+              <li data-lang="services_info_2">Gerne erstellen wir Ihnen ein individuelles Angebot nach einer persönlichen Beratung</li>
+              <li data-lang="services_info_3">Kombinationsleistungen sind möglich und werden entsprechend angepasst</li>
+              <li data-lang="services_info_4">Wir verwenden ausschließlich hochwertige Produkte führender Marken</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-cta" data-aos="fade-up">
+        <div class="cta-content">
+          <h2 data-lang="services_cta_title">Bereit für Ihre Verwandlung?</h2>
+          <p data-lang="services_cta_text">Vereinbaren Sie jetzt Ihren Termin und lassen Sie sich von unserem Team beraten.</p>
+          <div class="cta-buttons">
+            <a href="/contact.html" class="btn btn-primary btn-glow">
+              <span data-lang="hero_cta_primary">Termin vereinbaren</span>
+              <i data-lucide="calendar"></i>
+            </a>
+            <a href="tel:+493312009955" class="btn btn-primary">
+              <i data-lucide="phone"></i>
+              <span>(0331) 2009955</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="/img/logo.jpeg" alt="Coiffeur Schnittpunkt Logo">
+            </div>
+            <p class="footer-tagline" data-lang="footer_tagline">Schönheit mit Stil seit 2003</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/Coiffeur.Schnittpunkt/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4 data-lang="footer_nav_title">Navigation</h4>
+              <ul class="footer-links">
+                <li><a href="/index.html" data-lang="nav_home">Startseite</a></li>
+                <li><a href="/about.html" data-lang="nav_about">Über uns</a></li>
+                <li><a href="/services.html" data-lang="nav_services">Leistungen</a></li>
+                <li><a href="/gallery.html" data-lang="nav_gallery">Galerie</a></li>
+                <li><a href="/contact.html" data-lang="nav_contact">Kontakt</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_contact_title">Kontakt</h4>
+              <ul class="footer-links">
+                <li>Kurfürstenstr. 2</li>
+                <li>14467 Potsdam</li>
+                <li><a href="tel:+493312009955">(0331) 2009955</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_legal_title">Rechtliches</h4>
+              <ul class="footer-links">
+                <li><a href="/imprint.html" data-lang="footer_imprint">Impressum</a></li>
+                <li><a href="/privacy.html" data-lang="footer_privacy">Datenschutz</a></li>
+                <li><a href="/cookie-policy.html" data-lang="footer_cookies">Cookie Richtlinie</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Coiffeur Schnittpunkt. <span data-lang="footer_rights">Alle Rechte vorbehalten.</span></p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+	<script src="/cookie-banner.js"></script>
+</body>
+</html>

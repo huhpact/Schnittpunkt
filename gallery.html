@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie - Coiffeur Schnittpunkt</title>
+
+  <meta name="description" content="Entdecken Sie unsere Galerie mit Einblicken in unsere Arbeit, Kreationen und aktuelle Trends aus dem Coiffeur Schnittpunkt in Potsdam.">
+  <meta name="keywords" content="Friseur Galerie, Haarstyles, Frisuren Potsdam, Portfolio, Vorher Nachher">
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/style.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+ <header class="header" id="header">
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo" aria-label="Coiffeur Schnittpunkt Logo" onclick="window.location.href='/index.html'">
+          <img src="/img/logo.jpeg" alt="Logo">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="nav-wrapper" id="navWrapper">
+          <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul class="nav-list" id="navList">
+            <li><a href="/index.html" class="nav-link" data-lang="nav_home">Startseite</a></li>
+            <li><a href="/about.html" class="nav-link" data-lang="nav_about">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link" data-lang="nav_services">Leistungen</a></li>
+            <li><a href="/gallery.html" class="nav-link" data-lang="nav_gallery">Galerie</a></li>
+             <li><a href="/news.html" class="nav-link" data-lang="nav_news">News</a></li>
+            <li><a href="/contact.html" class="nav-link" data-lang="nav_contact">Kontakt</a></li>
+          </ul>
+
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" data-lang-btn="de" aria-label="Deutsch">DE</button>
+            <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-background">
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="section-badge">
+          <i data-lucide="image"></i>
+          <span data-lang="gallery_badge">Galerie</span>
+        </div>
+        <h1 class="page-hero-title" data-lang="gallery_page_title">Unsere Kreationen</h1>
+        <p class="page-hero-subtitle" data-lang="gallery_page_subtitle">
+          Lassen Sie sich inspirieren von unseren Arbeiten und entdecken Sie, was wir für Sie kreieren können.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-full section">
+    <div class="container-wide">
+      <div class="gallery-bento">
+        <div class="gallery-item-full tall" data-aos="fade-up">
+          <img src="/img/placeholder.webp"
+               alt="Moderner Damenhaarschnitt"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_1_title">Moderner Bob</h3>
+              <p data-lang="gallery_item_1_desc">Klassischer Schnitt mit modernem Touch</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="100">
+          <img src="/img/gal1.jpg"
+               alt="Balayage Coloration"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_2_title">Neues Blond, neuer Style!</h3>
+              <p data-lang="gallery_item_2_desc">Modernes, leuchtendes Haar mit natürlichen Highlights</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="200">
+          <img src="/img/placeholder.webp"
+               alt="Professionelles Styling"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_3_title">Elegantes Styling</h3>
+              <p data-lang="gallery_item_3_desc">Perfekt für jeden Anlass</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+				 <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="200">
+          <img src="/img/gal2.webp"
+               alt="Professionelles Styling"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_3_title">Elegantes Styling</h3>
+              <p data-lang="gallery_item_3_desc">Perfekt für jeden Anlass</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full wide" data-aos="fade-up" data-aos-delay="300">
+          <img src="/img/placeholder.webp"
+               alt="Herrenhaarschnitt"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_4_title">Herrenschnitt</h3>
+              <p data-lang="gallery_item_4_desc">Klassisch und zeitlos</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="400">
+          <img src="/img/gal3.webp"
+               alt="Haarfarbe Highlights"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_5_title">Highlights</h3>
+              <p data-lang="gallery_item_5_desc">Lebendige Dimension</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full tall" data-aos="fade-up" data-aos-delay="500">
+          <img src="/img/placeholder.webp"
+               alt="Locken Styling"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_6_title">Beach Waves</h3>
+              <p data-lang="gallery_item_6_desc">Lässig und natürlich</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="600">
+          <img src="/img/placeholder.webp"
+               alt="Brautfrisur"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_7_title">Hochsteckfrisur</h3>
+              <p data-lang="gallery_item_7_desc">Elegant für den großen Tag</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full wide" data-aos="fade-up" data-aos-delay="700">
+          <img src="/img/gal4.jpg"
+               alt="Ombré Färbung"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_8_title">Atmosphäre</h3>
+              <p data-lang="gallery_item_8_desc">Die perfekte Stimmung für Ihren Besuch</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="800">
+          <img src="/img/placeholder.webp"
+               alt="Kurzhaarschnitt"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_9_title">Pixie Cut</h3>
+              <p data-lang="gallery_item_9_desc">Mutig und modern</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full tall" data-aos="fade-up" data-aos-delay="900">
+          <img src="/img/placeholder.webp"
+               alt="Glattes Styling"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_10_title">Sleek Style</h3>
+              <p data-lang="gallery_item_10_desc">Glatt und glänzend</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="1000">
+          <img src="/img/gal5.webp"
+               alt="Dauerhafte Locken"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3 data-lang="gallery_item_11_title">Dauerhafte Locken</h3>
+              <p data-lang="gallery_item_11_desc">Perfekt für den dauerhaften Look</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item-full" data-aos="fade-up" data-aos-delay="1100">
+          <img src="/img/gal6.webp"
+               alt="Mittellanges Haar"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h3>Its Blue.</h3>
+              <p data-lang="gallery_item_12_desc">Volumen und Bewegung</p>
+            </div>
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+			
+
+      <div class="gallery-footer-cta" data-aos="fade-up">
+        <div class="social-section">
+          <h2 data-lang="gallery_social_title">Folgen Sie uns auf Instagram</h2>
+          <p data-lang="gallery_social_desc">Entdecken Sie neue Kreationen und aktuelle Trends</p>
+          <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="btn-floating instagram-btn">
+            <div class="btn-floating-inner">
+              <span>@coiffeur_schnittpunkt_potsdam</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box" data-aos="zoom-in">
+        <div class="cta-icon">
+          <i data-lucide="calendar"></i>
+        </div>
+        <h2 data-lang="gallery_cta_title">Bereit für Ihre Verwandlung?</h2>
+        <p data-lang="gallery_cta_text">Lassen Sie sich von unserem Team beraten und vereinbaren Sie noch heute Ihren Termin.</p>
+        <div class="cta-buttons">
+          <a href="index.html#contact" class="btn btn-primary btn-glow">
+            <span data-lang="hero_cta_primary">Termin vereinbaren</span>
+            <i data-lucide="calendar"></i>
+          </a>
+          <a href="tel:+493312009955" class="btn btn-secondary">
+            <i data-lucide="phone"></i>
+            <span>(0331) 2009955</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="/img/logo.jpeg" alt="Coiffeur Schnittpunkt Logo">
+            </div>
+            <p class="footer-tagline" data-lang="footer_tagline">Schönheit mit Stil seit 2003</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/Coiffeur.Schnittpunkt/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4 data-lang="footer_nav_title">Navigation</h4>
+              <ul class="footer-links">
+                <li><a href="/index.html" data-lang="nav_home">Startseite</a></li>
+                <li><a href="/about.html" data-lang="nav_about">Über uns</a></li>
+                <li><a href="/services.html" data-lang="nav_services">Leistungen</a></li>
+                <li><a href="/gallery.html" data-lang="nav_gallery">Galerie</a></li>
+                <li><a href="/contact.html" data-lang="nav_contact">Kontakt</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_contact_title">Kontakt</h4>
+              <ul class="footer-links">
+                <li>Kurfürstenstr. 2</li>
+                <li>14467 Potsdam</li>
+                <li><a href="tel:+493312009955">(0331) 2009955</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_legal_title">Rechtliches</h4>
+              <ul class="footer-links">
+                <li><a href="/imprint.html" data-lang="footer_imprint">Impressum</a></li>
+                <li><a href="/privacy.html" data-lang="footer_privacy">Datenschutz</a></li>
+                <li><a href="/cookie-policy.html" data-lang="footer_cookies">Cookie Richtlinie</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Coiffeur Schnittpunkt. <span data-lang="footer_rights">Alle Rechte vorbehalten.</span></p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="image-modal" id="imageModal">
+    <button class="modal-close" id="modalClose" aria-label="Schließen">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="modal-content">
+      <img src="" alt="" id="modalImage">
+    </div>
+    <button class="modal-nav modal-prev" id="modalPrev" aria-label="Vorheriges Bild">
+      <i data-lucide="chevron-left"></i>
+    </button>
+    <button class="modal-nav modal-next" id="modalNext" aria-label="Nächstes Bild">
+      <i data-lucide="chevron-right"></i>
+    </button>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+	<script src="/cookie-banner.js"></script>
+</body>
+</html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coiffeur Schnittpunkt - Ihr Friseur in Potsdam</title>
+  <meta name="description" content="Coiffeur Schnittpunkt - Ihr professioneller Friseur in Potsdam. Individuelle Beratung, moderne Styles und persönliche Atmosphäre.">
+  <meta name="keywords" content="Friseur Potsdam, Coiffeur, Haarschnitt, Styling, Schnittpunkt">
+  <meta name="author" content="Coiffeur Schnittpunkt">
+  <meta property="og:title" content="Coiffeur Schnittpunkt - Ihr Friseur in Potsdam">
+  <meta property="og:description" content="Individuelle Beratung, moderne Styles und persönliche Atmosphäre in Potsdam.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coiffeur-schnittpunkt.de">
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+	<link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Coiffeur Schnittpunkt",
+    "image": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kurfürstenstr. 2",
+      "addressLocality": "Potsdam",
+      "postalCode": "14467",
+      "addressCountry": "DE"
+    },
+    "telephone": "+493312009955",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "15:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo" aria-label="Coiffeur Schnittpunkt Logo" onclick="window.location.href='/index.html'">
+          <img src="/img/logo.jpeg" alt="Logo">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="nav-wrapper" id="navWrapper">
+          <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul class="nav-list" id="navList">
+            <li><a href="/index.html" class="nav-link" data-lang="nav_home">Startseite</a></li>
+            <li><a href="/about.html" class="nav-link" data-lang="nav_about">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link" data-lang="nav_services">Leistungen</a></li>
+            <li><a href="/gallery.html" class="nav-link" data-lang="nav_gallery">Galerie</a></li>
+             <li><a href="/news.html" class="nav-link" data-lang="nav_news">News</a></li>
+            <li><a href="/contact.html" class="nav-link" data-lang="nav_contact">Kontakt</a></li>
+          </ul>
+
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" data-lang-btn="de" aria-label="Deutsch">DE</button>
+            <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="floating-shape shape-4"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge" data-aos="fade-down">
+          <i data-lucide="sparkles"></i>
+          <span data-lang="hero_badge">Seit 2003 Ihr Friseursalon in Potsdam</span>
+        </div>
+
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+          <span class="hero-title-top" data-lang="hero_title_1">Coiffeur</span>
+          <span class="hero-title-bottom" data-lang="hero_title_2">Schnittpunkt</span>
+        </h1>
+
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400" data-lang="hero_subtitle">
+          Ihr Friseur in Potsdam – individuelle Beratung, moderne Styles, persönliche Atmosphäre.
+        </p>
+
+        <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <span data-lang="hero_cta_primary">Termin vereinbaren</span>
+            <i data-lucide="calendar"></i>
+          </a>
+          <a href="tel:+493312009955" class="btn btn-primary">
+            <i data-lucide="phone"></i>
+            <span>(0331) 2009955</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-badge">
+          <i data-lucide="heart"></i>
+          <span data-lang="about_badge">Über uns</span>
+        </div>
+        <h2 class="section-title" data-lang="about_title">Ihre Experten für Stil & Schönheit</h2>
+        <p class="section-subtitle" data-lang="about_subtitle">
+          Seit über 20 Jahren steht unser Name für Qualität, Professionalität und individuelle Beratung im Herzen von Potsdam.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-section" data-aos="fade-right">
+          <div class="about-main-image">
+            <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                 alt="Salon Interior"
+                 loading="lazy">
+            <div class="about-image-decoration"></div>
+          </div>
+          <div class="about-experience-badge">
+            <div class="experience-badge-inner">
+              <div class="experience-number">20+</div>
+              <div class="experience-text" data-lang="experience_years">Jahre Erfahrung</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="scissors"></i>
+              </div>
+              <div class="feature-content">
+                <h3 data-lang="feature_1_title">Professionelle Schnitte</h3>
+                <p data-lang="feature_1_desc">Individuell abgestimmt auf Ihre Gesichtsform und Persönlichkeit</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="palette"></i>
+              </div>
+              <div class="feature-content">
+                <h3 data-lang="feature_2_title">Moderne Färbetechniken</h3>
+                <p data-lang="feature_2_desc">Von klassisch bis trendy – mit nachhaltigen Premium-Produkten</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <div class="feature-content">
+                <h3 data-lang="feature_3_title">Exklusive Treatments</h3>
+                <p data-lang="feature_3_desc">Intensive Pflege für gesundes und glänzendes Haar</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i data-lucide="heart"></i>
+              </div>
+              <div class="feature-content">
+                <h3 data-lang="feature_4_title">Persönliche Beratung</h3>
+                <p data-lang="feature_4_desc">Wir nehmen uns Zeit für Ihre individuellen Wünsche</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services section" id="services">
+    <div class="services-background">
+      <div class="services-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-badge">
+          <i data-lucide="briefcase"></i>
+          <span data-lang="services_badge">Leistungen</span>
+        </div>
+        <h2 class="section-title" data-lang="services_title">Unsere Leistungen</h2>
+        <p class="section-subtitle" data-lang="services_subtitle">
+          Von klassischen Schnitten bis zu modernen Trends – wir bieten ein umfassendes Leistungsspektrum für Damen, Herren und Kinder.
+        </p>
+      </div>
+
+     <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="scissors"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_1_title">Haarschnitt</h3>
+            <p class="service-description" data-lang="service_1_desc">
+              Klassische und moderne Schnitte für Damen und Herren, abgestimmt auf Ihre Gesichtsform und Ihren Typ.
+            </p>
+            <div class="service-price" data-lang="service_1_price">ab 32€</div>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="palette"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_2_title">Coloration</h3>
+            <p class="service-description" data-lang="service_2_desc">
+              Professionelle Färbetechniken, Strähnchen und Balayage mit hochwertigen, schonenden Produkten.
+            </p>
+            <div class="service-price" data-lang="service_2_price">ab 55€</div>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="sparkles"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_3_title">Styling</h3>
+            <p class="service-description" data-lang="service_3_desc">
+              Festliches Styling, Hochsteckfrisuren und Event-Looks für jeden besonderen Anlass.
+            </p>
+            <div class="service-price" data-lang="service_3_price">ab 40€</div>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="droplet"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_4_title">Pflege & Treatments</h3>
+            <p class="service-description" data-lang="service_4_desc">
+              Intensive Haarkuren, Treatments und Kopfhautpflege für gesundes, glänzendes Haar.
+            </p>
+            <div class="service-price" data-lang="service_4_price">ab 25€</div>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="heart"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_5_title">Braut-Styling</h3>
+            <p class="service-description" data-lang="service_5_desc">
+              Komplettes Hochzeits-Styling inklusive Probetermin für Ihren perfekten Look am großen Tag.
+            </p>
+            <div class="service-price" data-lang="service_5_price">ab 120€</div>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+          <div class="service-card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon">
+                <i data-lucide="wind"></i>
+              </div>
+            </div>
+            <h3 class="service-title" data-lang="service_6_title">Dauerwelle & Glättung</h3>
+            <p class="service-description" data-lang="service_6_desc">
+              Langanhaltende Locken oder dauerhafte Glättung mit modernsten, haarschonenden Techniken.
+            </p>
+            <div class="service-price" data-lang="service_6_price">ab 75€</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-badge">
+          <i data-lucide="image"></i>
+          <span data-lang="gallery_badge">Galerie</span>
+        </div>
+        <h2 class="section-title" data-lang="gallery_title">Einblicke in unsere Arbeit</h2>
+        <p class="section-subtitle" data-lang="gallery_subtitle">
+          Entdecken Sie unsere Kreationen und lassen Sie sich von aktuellen Trends inspirieren.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="/img/gal4.jpg"
+               alt="Gallery Image 1"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+          <img src="/img/gal6.webp"
+               alt="Gallery Image 2"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="/img/gal5.webp"
+               alt="Gallery Image 3"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+          <img src="/img/gal3.webp"
+               alt="Gallery Image 4"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+          <img src="/img/gal2.webp"
+               alt="Gallery Image 5"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="350">
+          <img src="/img/gal1.jpg"
+               alt="Gallery Image 6"
+               loading="lazy">
+          <div class="gallery-overlay">
+            <button class="gallery-zoom-btn" aria-label="Bild vergrößern">
+              <i data-lucide="maximize-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-footer" data-aos="fade-up">
+        <p class="gallery-footer-text" data-lang="gallery_follow">Folgen Sie uns auf Instagram für mehr Inspiration</p>
+        <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="btn-floating instagram-btn">
+          <div class="btn-floating-inner">
+            <i data-lucide="instagram"></i>
+            <span>@coiffeur_schnittpunkt_potsdam</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-badge">
+          <i data-lucide="map-pin"></i>
+          <span data-lang="contact_badge">Kontakt</span>
+        </div>
+        <h2 class="section-title" data-lang="contact_title">Besuchen Sie uns</h2>
+        <p class="section-subtitle" data-lang="contact_subtitle">
+          Vereinbaren Sie noch heute Ihren Termin – wir freuen uns auf Sie!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div class="contact-card-content">
+              <h3 data-lang="contact_address_title">Adresse</h3>
+              <p>
+                Kurfürstenstr. 2<br>
+                14467 Potsdam<br>
+                Deutschland
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <div class="contact-card-content">
+              <h3 data-lang="contact_phone_title">Telefon</h3>
+              <p>
+                <a href="tel:+493312009955" class="contact-link">(0331) 2009955</a>
+              </p>
+              <a href="tel:+493312009955" class="btn btn-primary btn-small">
+                <i data-lucide="phone-call"></i>
+                <span data-lang="contact_call_btn">Jetzt anrufen</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i data-lucide="clock"></i>
+            </div>
+            <div class="contact-card-content">
+              <h3 data-lang="contact_hours_title">Öffnungszeiten</h3>
+              <div class="hours-list">
+                <div class="hours-item">
+                  <span data-lang="day_mon">Montag</span>
+                  <span data-lang="hours_mon">09:00 - 15:00</span>
+                </div>
+                <div class="hours-item">
+                  <span data-lang="day_tue">Dienstag</span>
+                  <span>09:00 – 18:00</span>
+                </div>
+                <div class="hours-item">
+                  <span data-lang="day_wed">Mittwoch</span>
+                  <span>09:00 – 18:00</span>
+                </div>
+                <div class="hours-item">
+                  <span data-lang="day_thu">Donnerstag</span>
+                  <span>08:00 – 20:00</span>
+                </div>
+                <div class="hours-item">
+                  <span data-lang="day_fri">Freitag</span>
+                  <span>08:00 – 20:00</span>
+                </div>
+                <div class="hours-item">
+                  <span data-lang="day_sat">Samstag</span>
+                  <span>09:00 – 15:00</span>
+                </div>
+                <div class="hours-item closed">
+                  <span data-lang="day_sun">Sonntag</span>
+                  <span data-lang="hours_closed">Geschlossen</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map" data-aos="fade-left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1860.7617984908827!2d13.057812912101356!3d52.403448961980054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8f5d98b29f7d9%3A0x58e7aba114ecea6c!2sSchnittpunkt%20GmbH!5e0!3m2!1sde!2sde!4v1771598773585!5m2!1sde!2sde"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Maps Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="/img/logo.jpeg" alt="Coiffeur Schnittpunkt Logo">
+            </div>
+            <p class="footer-tagline" data-lang="footer_tagline">Schönheit mit Stil seit 2003</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/Coiffeur.Schnittpunkt/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4 data-lang="footer_nav_title">Navigation</h4>
+              <ul class="footer-links">
+                <li><a href="/index.html" data-lang="nav_home">Startseite</a></li>
+                <li><a href="/about.html" data-lang="nav_about">Über uns</a></li>
+                <li><a href="/services.html" data-lang="nav_services">Leistungen</a></li>
+                <li><a href="/gallery.html" data-lang="nav_gallery">Galerie</a></li>
+                <li><a href="/contact.html" data-lang="nav_contact">Kontakt</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_contact_title">Kontakt</h4>
+              <ul class="footer-links">
+                <li>Kurfürstenstr. 2</li>
+                <li>14467 Potsdam</li>
+                <li><a href="tel:+493312009955">(0331) 2009955</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_legal_title">Rechtliches</h4>
+              <ul class="footer-links">
+                <li><a href="/imprint.html" data-lang="footer_imprint">Impressum</a></li>
+                <li><a href="/privacy.html" data-lang="footer_privacy">Datenschutz</a></li>
+                <li><a href="/cookie-policy.html" data-lang="footer_cookies">Cookie Richtlinie</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Coiffeur Schnittpunkt. <span data-lang="footer_rights">Alle Rechte vorbehalten.</span></p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="image-modal" id="imageModal">
+    <button class="modal-close" id="modalClose" aria-label="Schließen">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="modal-content">
+      <img src="" alt="" id="modalImage">
+    </div>
+    <button class="modal-nav modal-prev" id="modalPrev" aria-label="Vorheriges Bild">
+      <i data-lucide="chevron-left"></i>
+    </button>
+    <button class="modal-nav modal-next" id="modalNext" aria-label="Nächstes Bild">
+      <i data-lucide="chevron-right"></i>
+    </button>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+	<script src="/cookie-banner.js"></script>
+</body>
+</html>

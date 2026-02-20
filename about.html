@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über uns - Coiffeur Schnittpunkt</title>
+
+  <meta name="description" content="Lernen Sie das Team von Coiffeur Schnittpunkt kennen. Seit über 20 Jahren Ihr professioneller Friseur in Potsdam.">
+  <meta name="keywords" content="Friseur Potsdam, Coiffeur, Team, Über uns, Schnittpunkt">
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <header class="header" id="header">
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo" aria-label="Coiffeur Schnittpunkt Logo" onclick="window.location.href='/index.html'">
+          <img src="/img/logo.jpeg" alt="Logo">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="nav-wrapper" id="navWrapper">
+          <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul class="nav-list" id="navList">
+            <li><a href="/index.html" class="nav-link" data-lang="nav_home">Startseite</a></li>
+            <li><a href="/about.html" class="nav-link" data-lang="nav_about">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link" data-lang="nav_services">Leistungen</a></li>
+            <li><a href="/gallery.html" class="nav-link" data-lang="nav_gallery">Galerie</a></li>
+             <li><a href="/news.html" class="nav-link" data-lang="nav_news">News</a></li>
+            <li><a href="/contact.html" class="nav-link" data-lang="nav_contact">Kontakt</a></li>
+          </ul>
+
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" data-lang-btn="de" aria-label="Deutsch">DE</button>
+            <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-background">
+        <div class="hero-gradient"></div>
+        <div class="hero-pattern"></div>
+      </div>
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-badge">
+            <i data-lucide="heart"></i>
+            <span data-lang="about_badge">Über uns</span>
+          </div>
+          <h1 class="page-title" data-lang="about_page_title">Ihre Experten für Stil & Schönheit</h1>
+          <p class="page-subtitle" data-lang="about_page_subtitle">
+            Seit über 20 Jahren steht unser Name für Qualität, Professionalität und individuelle Beratung im Herzen von Potsdam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-story section">
+      <div class="container">
+        <div class="about-story-grid">
+          <div class="about-story-image" data-aos="fade-right">
+            <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                 alt="Salon Interior"
+                 loading="lazy">
+            <div class="about-image-decoration"></div>
+            <div class="about-experience-badge">
+              <div class="experience-badge-inner">
+                <div class="experience-number">20+</div>
+                <div class="experience-text" data-lang="experience_years">Jahre Erfahrung</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-story-content" data-aos="fade-left">
+            <h2 data-lang="about_story_title">Unsere Geschichte</h2>
+            <p data-lang="about_story_p1">
+              Seit 2003 sind wir Ihr vertrauensvoller Partner für alle Friseur-Dienstleistungen in Potsdam. Was als kleiner Salon begann, hat sich zu einer etablierten Adresse für anspruchsvolle Kunden entwickelt, die Wert auf Qualität und persönliche Beratung legen.
+            </p>
+            <p data-lang="about_story_p2">
+              Unser Team vereint jahrzehntelange Erfahrung mit Leidenschaft für das Handwerk. Wir nehmen uns Zeit für jeden einzelnen Kunden und schaffen einen Wohlfühlort, an dem Sie entspannen und sich verwandeln lassen können.
+            </p>
+            <p data-lang="about_story_p3">
+              Bei uns erwartet Sie nicht nur ein erstklassiger Haarschnitt, sondern ein Erlebnis, das Ihre Persönlichkeit unterstreicht und Ihr Selbstbewusstsein stärkt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-values section">
+      <div class="services-background">
+        <div class="services-pattern"></div>
+      </div>
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title" data-lang="about_values_title">Unsere Werte</h2>
+          <p class="section-subtitle" data-lang="about_values_subtitle">
+            Was uns auszeichnet und wofür wir stehen
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="value-icon">
+              <i data-lucide="award"></i>
+            </div>
+            <h3 data-lang="value_1_title">Qualität</h3>
+            <p data-lang="value_1_desc">
+              Wir verwenden ausschließlich hochwertige Produkte und arbeiten nach modernsten Techniken, um Ihnen das beste Ergebnis zu garantieren.
+            </p>
+          </div>
+
+          <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="value-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 data-lang="value_2_title">Persönlichkeit</h3>
+            <p data-lang="value_2_desc">
+              Jeder Kunde ist einzigartig. Wir hören zu, beraten individuell und kreieren einen Look, der zu Ihnen passt.
+            </p>
+          </div>
+
+          <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="value-icon">
+              <i data-lucide="leaf"></i>
+            </div>
+            <h3 data-lang="value_3_title">Nachhaltigkeit</h3>
+            <p data-lang="value_3_desc">
+              Wir setzen auf umweltfreundliche Produkte und nachhaltige Praktiken, um unseren ökologischen Fußabdruck zu minimieren.
+            </p>
+          </div>
+
+          <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="value-icon">
+              <i data-lucide="heart"></i>
+            </div>
+            <h3 data-lang="value_4_title">Leidenschaft</h3>
+            <p data-lang="value_4_desc">
+              Friseurhandwerk ist unsere Berufung. Mit Begeisterung und Hingabe erschaffen wir jeden Tag aufs Neue kleine Kunstwerke.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-team section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title" data-lang="about_team_title">Unser Team</h2>
+          <p class="section-subtitle" data-lang="about_team_subtitle">
+            Lernen Sie die Menschen kennen, die Ihren Look kreieren
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member-image">
+              <img src="/img/mike.png"
+                   alt="Team Member"
+                   loading="lazy">
+            </div>
+            <div class="team-member-info">
+              <h3 data-lang="team_1_name">Mike Wittich</h3>
+              <p class="team-member-role" data-lang="team_1_role">Salon-Inhaber & Meister</p>
+              <p class="team-member-desc" data-lang="team_1_desc">
+                Mit über 20 Jahren Erfahrung und Leidenschaft für kreative Schnitte und Colorationen.
+              </p>
+            </div>
+          </div>
+
+          <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member-image">
+              <img src="https://braverplayers.org/wp-content/uploads/2022/09/blank-pfp.png"
+                   alt="Team Member"
+                   loading="lazy">
+            </div>
+            <div class="team-member-info">
+              <h3 data-lang="team_2_name">Lisa Müller</h3>
+              <p class="team-member-role" data-lang="team_2_role">Friseurmeisterin</p>
+              <p class="team-member-desc" data-lang="team_2_desc">
+                Spezialistin für Balayage, Strähnchen und moderne Färbetechniken.
+              </p>
+            </div>
+          </div>
+
+          <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member-image">
+              <img src="https://braverplayers.org/wp-content/uploads/2022/09/blank-pfp.png"
+                   alt="Team Member"
+                   loading="lazy">
+            </div>
+            <div class="team-member-info">
+              <h3 data-lang="team_3_name">Michael Weber</h3>
+              <p class="team-member-role" data-lang="team_3_role">Stylist</p>
+              <p class="team-member-desc" data-lang="team_3_desc">
+                Experte für Herrenschnitte und klassische Styles mit moderner Note.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section">
+      <div class="hero-background">
+        <div class="hero-gradient"></div>
+        <div class="hero-pattern"></div>
+      </div>
+      <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+          <h2 data-lang="cta_title">Überzeugt? Vereinbaren Sie jetzt Ihren Termin!</h2>
+          <p data-lang="cta_subtitle">Wir freuen uns darauf, Sie kennenzulernen und Ihren individuellen Look zu kreieren.</p>
+          <div class="cta-buttons">
+            <a href="tel:+493312009955" class="btn btn-primary btn-glow">
+              <i data-lucide="phone"></i>
+              <span>(0331) 2009955</span>
+            </a>
+            <a href="/contact.html" class="btn btn-primary">
+              <i data-lucide="map-pin"></i>
+              <span data-lang="cta_contact">Besuchen Sie uns</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-pattern"></div>
+    </div>
+
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="/img/logo.jpeg" alt="Coiffeur Schnittpunkt Logo">
+            </div>
+            <p class="footer-tagline" data-lang="footer_tagline">Schönheit mit Stil seit 2003</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/coiffeur_schnittpunkt_potsdam/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/Coiffeur.Schnittpunkt/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4 data-lang="footer_nav_title">Navigation</h4>
+              <ul class="footer-links">
+                <li><a href="/index.html" data-lang="nav_home">Startseite</a></li>
+                <li><a href="/about.html" data-lang="nav_about">Über uns</a></li>
+                <li><a href="/services.html" data-lang="nav_services">Leistungen</a></li>
+                <li><a href="/gallery.html" data-lang="nav_gallery">Galerie</a></li>
+                <li><a href="/contact.html" data-lang="nav_contact">Kontakt</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_contact_title">Kontakt</h4>
+              <ul class="footer-links">
+                <li>Kurfürstenstr. 2</li>
+                <li>14467 Potsdam</li>
+                <li><a href="tel:+493312009955">(0331) 2009955</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-lang="footer_legal_title">Rechtliches</h4>
+              <ul class="footer-links">
+                <li><a href="/imprint.html" data-lang="footer_imprint">Impressum</a></li>
+                <li><a href="/privacy.html" data-lang="footer_privacy">Datenschutz</a></li>
+                <li><a href="/cookie-policy.html" data-lang="footer_cookies">Cookie Richtlinie</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Coiffeur Schnittpunkt. <span data-lang="footer_rights">Alle Rechte vorbehalten.</span></p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+	<script src="/cookie-banner.js"></script>
+</body>
+</html>
