@@ -51,6 +51,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html {
@@ -3568,3 +3569,19 @@ button {
     transform: scale(1.1);
 }
 
+@media (max-width: 768px) {
+  .instagram-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .instagram-btn .btn-floating-inner {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+}
