@@ -310,7 +310,7 @@ button {
    =========================== */
 
 .hero {
-  min-height: 100vh;
+  min-height: 100vh !important;
   display: flex;
   align-items: center;
   position: relative;
@@ -1777,7 +1777,7 @@ button {
   }
 
   .hero {
-    min-height: auto;
+    min-height: 100vh !important;
     padding: 140px 0 80px;
   }
 
