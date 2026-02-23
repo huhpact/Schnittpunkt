@@ -256,7 +256,7 @@ button {
 }
 
 .header.scrolled .lang-btn {
-  color: var(--text-secondary);
+  color: var(--bg-white);
 }
 
 .header.scrolled .nav-link {
@@ -283,6 +283,16 @@ button {
 
 .mobile-nav-close {
   display: none;
+}
+
+.header.scrolled .lang-btn.active {
+  background: var(--primary);
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.header.scrolled .lang-btn:not(.active) {
+  color: var(--text-secondary);
 }
 
 .hamburger-line {
