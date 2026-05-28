@@ -304,7 +304,7 @@ const translations = {
     team_1_name: 'Mike Wittich',
     team_1_role: 'Saloninhaber & Meisterfriseur',
     team_1_desc: 'Mit über 20 Jahren Erfahrung und einer Leidenschaft für Haarkunst',
-    team_2_name: 'Person 1',
+    team_2_name: 'Team',
     team_2_role: 'Art Director & Colorist',
     team_2_desc: 'Spezialist für Färbetechniken und kreative Styles',
     team_3_name: 'Person 2',
